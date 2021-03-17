@@ -1,0 +1,283 @@
+
+/* Elements principaux de la page */
+
+/* 
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('polices/raleway-regular.eot');
+    src: url('polices/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('polices/raleway-regular.woff') format('woff'),
+         url('polices/raleway-regular.ttf') format('truetype'),
+         url('polices/raleway-regular.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#bloc-page
+{
+width: 900px;
+margin: auto;
+}
+
+#titre_principal
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img
+{
+    height: 55px;
+    width: 115;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+span
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    min-width: 200px;
+    width: auto;
+}
+
+/* Navigation */
+
+#Menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+nav li
+{
+    display: flex;
+    justify-content: auto;
+    margin-left: 90px;
+}
+
+/* recherche */
+
+#recherche
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#map_maket_alt
+{
+    height: 60px;
+    width: 70px;
+    background: rgb(252, 248, 248);
+}
+
+#rechercher
+{
+    display: flex;
+    height: 60px;
+    width: 570px;
+    margin-bottom: 40px;
+    font-size: 1.4em;
+    background-color: #0065FC;
+    border-radius: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+#bouton_bleu
+{
+    Color: white;
+}
+
+#ville_pays
+{
+    width: 300px;
+    height: 60px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* filtre */
+
+#filtre
+{
+    display: flex;
+    width:70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#filtre h1
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.fas.fa-money-bill-wave
+{
+    margin-top: 5px;
+    color:#0065FC;
+}
+
+.fas.fa-child
+{
+    margin-top: 5px;
+    color:#0065FC;
+}
+
+.fas.fa-heart
+{
+    margin-top: 5px;
+    color:#0065FC;
+}
+
+.fas.fa-dog
+{
+    margin-top: 5px;
+    color:#0065FC;
+}
+
+ #filtre a:hover
+{
+    color:#0065FC;
+}
+
+#economique
+{
+    display: flex;
+    width: 250px;
+    height:40px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: gray solid 1px;
+    justify-content: space-around;
+}
+
+#familial
+{
+    display: flex;
+    width: 200px;
+    height:40px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: gray solid 1px;
+    justify-content: space-around;
+}
+
+#romantique
+{
+    display: flex;
+    width: 250px;
+    height:40px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: gray solid 1px;
+    justify-content: space-around;
+}
+
+#animaux_autorisés
+{
+    display: flex;
+    height:40px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: gray solid 1px;
+    width: 300px;
+    justify-content: space-around;
+}
+
+/* Section */
+
+#plus_de_logements
+{
+    display: flex;
+    width: 50%
+}
+
+.fas.fa-info
+{
+    color:#0065FC;
+}
+
+#hebergement_a_marseille
+{
+    width: 70%;
+    min-width: 350px;
+    height: 800px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F2F2F2
+}
+
+#plus_de_logements
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#hebergement_a_marseille h1
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.hebergement
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img
+{
+    width: 300px;
+    height: 200px
+}
+ 
+/* Activités */
+
+{
+    width: 70%;
+    min-width: 350px;
+    height: 800px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F2F2F2
+}
+
+
+    aside
+    {
+
+    }
+
+
+
+
+
