@@ -268,6 +268,7 @@ section{
 
 #hebergements_a_marseille{
     width: 65%;
+    min-width: 450px;
     height: 819px;
     border-radius: 3%;
     background-color: #F2F2F2;
@@ -391,7 +392,7 @@ section{
 
 #les_plus_populaires{
     width: 31%;
-    min-width: 400px;
+    min-width: 450px;
     height: 795px;
     border-radius: 5%;
     padding-top: 1%;
@@ -401,6 +402,7 @@ section{
 .hotel_populaire{
     display: flex;
     width: 80%;
+    min-width: 390px;
     height: 180px;
     border-radius: 30px;
     border: rgb(223, 221, 221) solid 1px;
