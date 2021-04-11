@@ -1,0 +1,139 @@
+@media (max-width: 375px){
+
+    header{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+
+    #titre_principal{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+
+    #logo{
+        width: 190px;
+        height: 100%;
+    }
+
+    #logo img{
+        height: 52.52px;
+        width: 109.38px;
+        padding-top: 9px;
+    }
+    
+    .is-active{
+        width: 200px;
+        padding-bottom: 10px;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+    }
+
+    .element{
+        width: 100px;
+        font-size: 1.15rem;
+        font-weight: bold;
+    }
+
+    .element:nth-child(2){
+        order: 1;
+    }
+
+    .element:nth-child(3){
+        order: 1;
+    }
+    
+    .slogan{
+        width: 80%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 2.5%;
+    }
+    
+    .sous_slogan{
+        font-size: 0.9rem;
+        margin-bottom: 3%;
+    }
+
+    /* rechercher */
+
+    #rechercher{
+       width: 100%;
+    }
+
+    .bouton_bleu{
+        display:none;
+    }
+
+    .fas.fa-search{
+        font-size: 1.4rem;
+        width: 5.5%;
+        padding-left:5%;
+        padding-right: 5%;
+        padding-bottom: 3.8%;
+        padding-top: 3.5%;
+        border-top-left-radius: 30%;
+        border-bottom-left-radius:30%;
+    }
+
+    /* Section */
+    
+    #hebergements_a_marseille {
+        min-width: 375px;
+
+    #plus_de_logements{
+        width: 100%;
+    }
+    
+    /* Les plus populaires */
+
+    #les_plus_populaires {
+        min-width: 375px;
+    }
+
+    .image_populaire1{
+        width: 100%;
+    }
+
+    .image_populaire2{
+       width: 100%;
+    }
+
+    .image_populaire3{
+        width: 100%;
+    }
+
+    .info_hotel_populaire{
+        width: 100%;
+    }
+
+    /* Activités */
+
+    .image_activites1 img{
+         width: 100%;
+    }
+
+    .image_activites2 img{
+        width: 100%;
+    }
+
+    .image_activites3 img{
+        width: 100%;
+    ]
+    
+    .image_activites4 img{
+        width: 100%;
+    }
+
+    .image_activites5 img{
+        width: 100%;
+    }
+
+    /* Pied de page */
+
+    .menu_pied_de_page{
+        width: 100%;
+    }
+
+}

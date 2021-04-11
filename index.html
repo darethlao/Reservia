@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<hmtl>
+<html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" media="screen and (max-with: 1280px)" href="petite_resolution.css" />
+		<link rel="stylesheet" href="petite_resolution.css" />
         <title>Reservia - Trouver votre hébergement pour des vacances de rêve </title>
 		<!-- Place your kit's code here -->
 		<script src="https://kit.fontawesome.com/77d84a95a1.js" crossorigin="anonymous"></script>
@@ -17,18 +17,24 @@
 			<header>
 				<div id="titre_principal">
 					<div id="logo">
-							<img src="images/logo/reservia@3x.png" alt="Logo de Reservia" />
+						<img src="images/logo/reservia@3x.png" alt="Logo de Reservia" />
+					</div>
+						<div class="element">
+						<div class="is-active">
+							<a href="#hebergements_a_marseille">Hébergements</a>
+						</div>
+						</div>
+						<div class="element">
+							<a href="#activites_a_marseille">Activités</a>
+						</div>
+						<div class="element">
+							<a href="sinscrire.html">S'inscrire</a>
+						</div>
+				</div>
+					<div id="slogan">
 							<h1 class="slogan">Trouvez votre hébergement pour des vacances de rêve</h1>
 							<h2 class="sous_slogan">En plein centre ville ou en pleine nature</h2>
 					</div>
-					<nav>
-						<ul id="menu">
-							<li><a href="#hebergements_a_marseille">Hébergements</a></li>
-							<li><a href="#activites_a_marseille">Activités</a></li>
-							<li><a href="sinscrire.html">S'inscrire</a></li>
-						</ul>
-					</nav>
-				</div>
 			</header>
 			<section>
 				<div id="recherche">
@@ -43,6 +49,7 @@
 							</form>
 						</div>
 						<a href="#" class="bouton_bleu">Rechercher</a>
+						<a href="#" class="fas fa-search @media max-width:375"></a>
 					</div>
 					<div id="filtre">
 						<h1>Filtres</h1>
@@ -188,7 +195,7 @@
 					<div id="activites_a_marseille">
 						<h1>Activités à Marseille</h1>
 						<div id="les_activites">
-							<div class="activites">
+							<div class="activites1">
 								<div class="image_activites1">
 									<img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux_port" />
 								</div>
@@ -212,9 +219,9 @@
 								<div class="info_activite">
 									<span>Iles du Frioul</span>
 								</div>
-								</div>
 							</div>
-							<div class="activites">
+						</div>
+							<div class="activites1">
 								<div class="image_activites1">
 									<img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc_national_des_calanques" />									
 								</div>
@@ -245,28 +252,29 @@
 				</aside>
 			</section>
 		</div>
-	</body>
 
 	<footer>
 		<div id="pied_de_page">
-			<nav>
-				<ul class="menu_pied_de_page"><strong>A propos</strong>
-					<li><a href="#fonctionnement_du_site">Fonctionnement du site</a></li>
-					<li><a href="#conditions_generales_de_vente">Conditions générales de vente</a></li>
-					<li><a href="#donnees_et_confidentialite">Données et confidentialité</a></li>
-				</ul>
-			</nav>
-			<nav>
-				<ul class="menu_pied_de_page"><strong>Nos hébergements</strong>
-					<li><a href="#charte_qualite">Charte qualité</a></li>
-					<li><a href="#soumettre_votre_hotel">Soumettre votre hôtel</a></li>
-				</ul>
-			</nav>
-			<nav>
-				<ul class="menu_pied_de_page"><strong>Assistance</strong>
-					<li><a href="#centre_d_aide">Centre d'aide</a></li>
-					<li><a href="#nous_contacter">Nous contacter</a></li>
-				</ul>
-			</nav>
+			<div class="menu_pied_de_page">
+				<div class="sous_menu_pied_de_page"><strong>A propos</strong>
+				</div>
+				<a href="#fonctionnement_du_site">Fonctionnement du site</a>
+				<br/><a href="#conditions_generales_de_vente">Conditions générales de vente</a>
+				<br/><a href="#donnees_et_confidentialite">Données et confidentialité</a>
+			</div>
+			<div class="menu_pied_de_page">
+				<div class="sous_menu_pied_de_page"><strong>Nos hébergements</strong>
+				</div>
+				<a href="#charte_qualite">Charte qualité</a>
+				<br/><a href="#soumettre_votre_hotel">Soumettre votre hôtel</a>
+			</div>
+			<div class="menu_pied_de_page">
+				<div class="sous_menu_pied_de_page"><strong>Assistance</strong>
+				</div>
+				<a href="#centre_d_aide">Centre d'aide</a>
+				<br/><a href="#nous_contacter">Nous contacter</a>
+			</div>
 		</div>
 	</footer>
+	</body>
+</html>
