@@ -125,6 +125,7 @@ input{
     font-size: 1.47rem;
     font-weight: bold;
     border: 2px solid #F2F2F2;
+    padding-left: 3%;;
 }
 
 .fas.fa-search{
