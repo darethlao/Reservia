@@ -9,9 +9,8 @@
 		<!-- Place your kit's code here -->
 		<script src="https://kit.fontawesome.com/77d84a95a1.js" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
 	</head>
-
 	<body>
         <div id="bloc_page">
 			<header>
@@ -19,17 +18,21 @@
 					<div id="logo">
 						<img src="images/logo/reservia@3x.png" alt="Logo de Reservia" />
 					</div>
-						<div class="element">
+					<div class="element">
 						<div class="is-active">
 							<a href="#hebergements_a_marseille">Hébergements</a>
 						</div>
-						</div>
-						<div class="element">
+					</div>
+					<div class="element">
+						<div class="no_active">
 							<a href="#activites_a_marseille">Activités</a>
 						</div>
-						<div class="element">
-							<a href="sinscrire.html">S'inscrire</a>
+					</div>
+					<div class="element">
+						<div class="no_active1">
+							<a href="sinscrire.html" class="gras">S'inscrire</a>
 						</div>
+					</div>
 				</div>
 					<div id="slogan">
 							<h1 class="slogan">Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -44,12 +47,13 @@
     						<i class="fas fa-map-marker-alt"></i>
 						</div>
 						<div id="ville_pays">
-							<form method="post" action="traitement.php">
-								<input type="search" name="Ville Pays" style="width:280px; height:60px; font-size:1.47rem; font-weight:bold; border:grey;" placeholder="  Marseille, France" />
-							</form>
+							<!-- form method="post" action="traitement.php"></form -->
+								<input type="search" name="Ville Pays" placeholder="Marseille, France" />
+						</div>
+						<div id="search">
+							<a href="#" class="fas fa-search"></a>
 						</div>
 						<a href="#" class="bouton_bleu">Rechercher</a>
-						<a href="#" class="fas fa-search @media max-width:375"></a>
 					</div>
 					<div id="filtre">
 						<h1>Filtres</h1>
@@ -101,7 +105,7 @@
 								<div class="nom_hotel">
 									<span>Hôtel du port</span>
 									<br/>Nuit à partir de 52 <strong>€</strong>
-									<br/><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-stas"></i><i class="fas fa-star"></i>
+									<br/><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-stas"></i><i class="fas fa-star"></i>
 								</div>
 							</div>
 							<div class="hotel">
@@ -160,8 +164,9 @@
 									<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le Soleil du matin" />
 								</div>
 								<div class="info_hotel_populaire">
-									<span>Hôtel Le Soleil du matin</span>
+									<span>Hôtel Le soleil du matin</span>
 									<br/>Nuit à partir de 128 <strong>€</strong>
+									<br/>
 									<br/>
 									<br/><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 								</div>
@@ -174,6 +179,7 @@
 									<span>Au coeur de l'eau Chambres d'hôtes</span>
 									<br/>Nuit à partir de 71 <strong>€</strong>
 									<br/>
+									</br/>
 									<br/><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: rgb(223, 221, 221)"></i>
 								</div>
 							</div>
@@ -184,6 +190,7 @@
 								<div class="info_hotel_populaire">
 									<span>Hôtel Tout bleu et Blanc</span>
 									<br/>Nuit à partir de 68 <strong>€</strong>
+									<br/>
 									<br/>
 									<br/><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: rgb(223, 221, 221)"></i>
 								</div>
@@ -204,23 +211,23 @@
 								</div>
 							</div>
 							<div class="block_activites">
-							<div class="activites2">
-								<div class="image_activites2">
-									<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort_de_pomegues" />												
+								<div class="activites2">
+									<div class="image_activites2">
+										<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort_de_pomegues" />												
+									</div>
+									<div class="info_activite">
+										<span>Fort de Pomègues</span>
+									</div>
 								</div>
-								<div class="info_activite">
-									<span>Fort de Pomègues</span>
+								<div class="activites3">
+									<div class="image_activites3">
+										<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="fort_du_frioul" />								
+									</div>
+									<div class="info_activite">
+										<span>Iles du Frioul</span>
+									</div>
 								</div>
 							</div>
-							<div class="activites3">
-								<div class="image_activites3">
-									<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="fort_du_frioul" />								
-								</div>
-								<div class="info_activite">
-									<span>Iles du Frioul</span>
-								</div>
-							</div>
-						</div>
 							<div class="activites1">
 								<div class="image_activites1">
 									<img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc_national_des_calanques" />									
@@ -230,51 +237,50 @@
 								</div>
 							</div>
 							<div class="block_activites">
-							<div class="activites4">
-								<div class="image_activites4">
-									<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre_dame_de_la_garde" />
-								</div>	
-								<div class="info_activite">
-									<span>Notre-Dame-de-la-Garde</span>
+								<div class="activites4">
+									<div class="image_activites4">
+										<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre_dame_de_la_garde" />
+									</div>	
+									<div class="info_activite">
+										<span>Notre-Dame-de-la-Garde</span>
+									</div>
 								</div>
-							</div>
-							<div class="activites4">
-								<div class="image_activites5">
-									<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc_longchamps" />
-								</div>	
-								<div class="info_activite">
-									<span>Parc Longchamp</span>
+								<div class="activites5">
+									<div class="image_activites5">
+										<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc_longchamps" />
+									</div>	
+									<div class="info_activite">
+										<span>Parc Longchamp</span>
+									</div>
 								</div>
-							</div>
 							</div>
 						</div>
 					</div>
 				</aside>
 			</section>
-		</div>
-
-	<footer>
-		<div id="pied_de_page">
-			<div class="menu_pied_de_page">
-				<div class="sous_menu_pied_de_page"><strong>A propos</strong>
+			<footer>
+				<div id="pied_de_page">
+					<div class="menu_pied_de_page">
+						<div class="sous_menu_pied_de_page"><strong>A propos</strong>
+						</div>
+						<a href="#fonctionnement_du_site">Fonctionnement du site</a>
+						<br/><a href="#conditions_generales_de_vente">Conditions générales de vente</a>
+						<br/><a href="#donnees_et_confidentialite">Données et confidentialité</a>
+					</div>
+					<div class="menu_pied_de_page">
+						<div class="sous_menu_pied_de_page"><strong>Nos hébergements</strong>
+						</div>
+						<a href="#charte_qualite">Charte qualité</a>
+						<br/><a href="#soumettre_votre_hotel">Soumettre votre hôtel</a>
+					</div>
+					<div class="menu_pied_de_page">
+						<div class="sous_menu_pied_de_page"><strong>Assistance</strong>
+						</div>
+						<a href="#centre_d_aide">Centre d'aide</a>
+						<br/><a href="#nous_contacter">Nous contacter</a>
+					</div>
 				</div>
-				<a href="#fonctionnement_du_site">Fonctionnement du site</a>
-				<br/><a href="#conditions_generales_de_vente">Conditions générales de vente</a>
-				<br/><a href="#donnees_et_confidentialite">Données et confidentialité</a>
-			</div>
-			<div class="menu_pied_de_page">
-				<div class="sous_menu_pied_de_page"><strong>Nos hébergements</strong>
-				</div>
-				<a href="#charte_qualite">Charte qualité</a>
-				<br/><a href="#soumettre_votre_hotel">Soumettre votre hôtel</a>
-			</div>
-			<div class="menu_pied_de_page">
-				<div class="sous_menu_pied_de_page"><strong>Assistance</strong>
-				</div>
-				<a href="#centre_d_aide">Centre d'aide</a>
-				<br/><a href="#nous_contacter">Nous contacter</a>
-			</div>
-		</div>
-	</footer>
+			</footer>
+		</div>	
 	</body>
 </html>
