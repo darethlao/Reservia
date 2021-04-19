@@ -441,6 +441,10 @@ input{
     background: white;
 }
 
+.etoile_hotel_populaire{
+    margin-top: 10%;
+}
+
 .image_populaire1{
     width: 300px;
     height: 166px;
