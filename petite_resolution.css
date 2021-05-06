@@ -126,7 +126,7 @@
 
     /* filtre */
 
-    #filtre h1{
+    #filtre h2{
         font-size: 1.1rem;
         font-weight: bold;
         margin-left: 0%;
@@ -301,7 +301,7 @@
         background-color:white;
     }
 
-    #hebergements_a_marseille h1{
+    #hebergements_a_marseille h2{
         font-size: 1.31rem;
         font-weight: bold;
         margin-left: 6%;
@@ -423,7 +423,7 @@
         background-color: #F2F2F2;
     }
     
-    #les_plus_populaires h1{
+    #les_plus_populaires h2{
         display: flex;
         width: 90%;
         font-size: 1.31rem;
@@ -530,7 +530,7 @@
         height: 1250px;
     }
 
-    #activites_a_marseille h1{
+    #activites_a_marseille h2{
         font-size: 1.31rem;
         font-weight: bold;
         margin-top: 10%;
