@@ -1,4 +1,4 @@
-@media (min-width: 1025px) and (max-width: 1400px){
+@media (min-width: 1353x) and (max-width: 1400px){
 
     header{
         padding-left: 4%;
@@ -83,7 +83,7 @@
         background-color: #0065FC;
         align-items: center;
     }
-    
+
     #map_maket_alt{
         font-size: 1rem;
         width: 3%;
@@ -98,7 +98,8 @@
     
     input{
         width: 230px;
-        height: 48px;
+        height: 50px;
+
         font-size: 1rem;
         font-weight: bold;
         border: 2px solid #F2F2F2;

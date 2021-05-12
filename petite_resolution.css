@@ -1,13 +1,13 @@
-@media (max-width: 375px){
+@media (max-width: 639px){
 
     header{
         padding-left: 0;
         padding-right: 0;
     }
 
-
     #titre_principal{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 8%;
     }
@@ -24,24 +24,6 @@
         padding-top: 13px;
     }
     
-    .is-active{
-        width: 180px;
-        padding-top: 30px;
-        padding-bottom: 10px;
-        border-top: none;
-        border-bottom: 4px solid #0065FC;
-    }
-
-    .no_active{
-        margin-top: 30px;
-    }
-
-    .no_active1{
-        margin-top: 40px;
-    }
-
-
-
     .element{
         width: 100px;
         font-size: 0.95rem;
@@ -56,6 +38,22 @@
         order: 1;
     }
     
+    .is-active{
+        width: 130px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+    }
+
+    .no_active{
+        margin-top: 30px;
+    }
+
+    .no_active1{
+        margin-top: 40px;
+    }
+
     .slogan{
         width: 90%;
         font-size: 1.40rem;
@@ -83,6 +81,7 @@
     #map_maket_alt {
         font-size: 1.1rem;
         width: 4%;
+        height: 19px;
         padding-left: 6%;
         padding-right: 6%;
         padding-bottom: 5%;

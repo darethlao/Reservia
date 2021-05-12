@@ -98,7 +98,7 @@ header a.gras{
 
 #rechercher{
     display: flex;
-    width: 530px;
+    width: 29%;
     height: 62px;
     border-radius: 20px;
     margin-left: 3%;
@@ -109,23 +109,22 @@ header a.gras{
 
 #map_maket_alt{
     font-size: 1.4rem;
-    width: 5.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 3.8%;
-    padding-top: 3.5%;
-    border-top-left-radius: 30%;
-    border-bottom-left-radius:30%;
+    height: 44px;
+    width: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    border-top-left-radius: 26.5%;
+    border-bottom-left-radius:  26.5%;
     background: #F2F2F2;
 }
-
 input{
-    width: 297px;
-    height: 62px;
+    width: 100%;
+    height: 64px;
     font-size: 1.47rem;
     font-weight: bold;
     border: 2px solid #F2F2F2;
-    padding-left: 3%;;
+    padding-left: 3%;
 }
 
 .fas.fa-search{
