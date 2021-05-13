@@ -5,9 +5,9 @@
         padding-right: 0;
     }
 
+
     #titre_principal{
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 8%;
     }
@@ -24,8 +24,25 @@
         padding-top: 13px;
     }
     
+    .is-active{
+        width: 150px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+    }
+
+    .no_active{
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+
+    .no_active1{
+        margin-top: 40px;
+    }
+
     .element{
-        width: 100px;
+        width: 130px;
         font-size: 0.95rem;
         font-weight: bold;
     }
@@ -38,22 +55,6 @@
         order: 1;
     }
     
-    .is-active{
-        width: 130px;
-        padding-top: 30px;
-        padding-bottom: 10px;
-        border-top: none;
-        border-bottom: 4px solid #0065FC;
-    }
-
-    .no_active{
-        margin-top: 30px;
-    }
-
-    .no_active1{
-        margin-top: 40px;
-    }
-
     .slogan{
         width: 90%;
         font-size: 1.40rem;
