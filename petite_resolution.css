@@ -1,10 +1,9 @@
-@media (max-width: 639px){
+@media (max-width: 380px){
 
     header{
         padding-left: 0;
         padding-right: 0;
     }
-
 
     #titre_principal{
         display: flex;
@@ -13,7 +12,7 @@
     }
 
     #logo{
-        width: 190px;
+        width: 45%;
         margin-left: 5%;
         height: 100%;
     }
@@ -23,28 +22,15 @@
         width: 93.77px;
         padding-top: 13px;
     }
-    
-    .is-active{
-        width: 150px;
-        padding-top: 30px;
-        padding-bottom: 10px;
-        border-top: none;
-        border-bottom: 4px solid #0065FC;
-    }
-
-    .no_active{
-        margin-right: 100px;
-        margin-top: 30px;
-    }
-
-    .no_active1{
-        margin-top: 40px;
-    }
 
     .element{
-        width: 130px;
+        width: 50%;
         font-size: 0.95rem;
         font-weight: bold;
+    }
+    
+    .element:nth-child(1){
+        order: 2;
     }
 
     .element:nth-child(2){
@@ -52,9 +38,28 @@
     }
 
     .element:nth-child(3){
-        order: 1;
+        order: 2;
+    }
+
+    .is-active{
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+        padding-bottom: 15px;
+        margin-bottom: 2%;
+        padding-top: 15px;
+        text-align: center;
     }
     
+    .no_active{
+        margin-top: 13px;
+        margin-left: 60px;
+    }
+    
+    .no_active1{
+        margin-top: 40px;
+        margin-left: 95px;
+    }
+
     .slogan{
         width: 90%;
         font-size: 1.40rem;
@@ -71,12 +76,16 @@
 
     /* rechercher */
 
-    #rechercher{
-        width: 330px;
+    #rechercher{        
+        display: flex;
+        min-width: 100px;
+        max-width: 335px;
         height: 52px;
-        margin-left: 7%;
-        margin-bottom: 6%;
-        background-color: white;
+        border-radius: 15px;
+        margin-left: 4%;
+        margin-bottom: 2%;
+        background-color:   #F2F2F2;
+        align-items: center;
     }
 
     #map_maket_alt {
@@ -101,18 +110,19 @@
         border: 2px solid #F2F2F2;
     }
 
-   #search{
+   #search1{
         font-size: 1rem;
-        width: 4%;
+        width: 15%;
+        height: 40px;
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
-        padding-top: 5%;
-        border-radius: 30%;
+        padding-bottom: 15px;
+        border-radius: 25%;
         background: #0065FC;
    }
 
     .fas.fa-search{
+        visibility: visible;
         color: #DEEBFF;
         align-items: center;
     }
@@ -122,7 +132,6 @@
         Color: white;
         padding-right: 0%;
     }
-
 
     /* filtre */
 
@@ -285,9 +294,10 @@
     }
 
     /* Article */
+
     #article{
         display: flex;
-        flex-direction:column-reverse
+        flex-direction: column-reverse;
     }
 
     /* Les hébergements à Marseille */
@@ -402,14 +412,7 @@
         margin-left: 7%;
     }
 
-    /* Inversion de l'odre des éléments de l'article */
-
-    .element-article:nth-child(2){
-        order: 1;
-    }
-
     /* Les plus populaires */
-
 
     #les_plus_populaires{
         display: block;

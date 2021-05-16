@@ -1,10 +1,10 @@
-@media (min-width: 1353x) and (max-width: 1400px){
+@media (min-width: 1300px) and (max-width: 1731px){
 
     header{
         padding-left: 4%;
         padding-right: 3%;
     }
-    
+   
     #titre_principal{
         display: flex;
         flex-wrap: wrap;
@@ -13,7 +13,7 @@
     }
     
     #logo{
-        width: 68%;
+        width: 56.4%;
         margin-top: 3%;
     }
       
@@ -23,15 +23,29 @@
     }
     
     .element{
-        width: 10%;
+        width: 12%;
         text-align: center;
         font-size: 1rem;
         font-weight: bold;
     }
-    
+
+    .element{
+        width: 12%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .element{
+        width: 12%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
     .is-active{
         border-top: 4px solid #0065FC;
-        padding-top: 40px;
+        padding-top: 38px;
         margin-bottom: 2%;
     }
     
@@ -40,7 +54,7 @@
     }
     
     .no_active1{
-        margin-top: 40px;
+        margin-top: 42.5px;
     }
     
     
@@ -75,46 +89,58 @@
     
     #rechercher{
         display: flex;
-        width: 29.5%;
-        height: 48px;
-        border-radius: 13px;
+        min-width: 200px;
+        max-width: 400px;
+        height: 49px;
+        border-radius: 15px;
         margin-left: 4%;
         margin-bottom: 2%;
-        background-color: #0065FC;
+        background-color:   #F2F2F2;
         align-items: center;
     }
 
     #map_maket_alt{
         font-size: 1rem;
-        width: 3%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 3.8%;
-        padding-top: 3.5%;
-        border-top-left-radius: 13px;
-        border-bottom-left-radius:2.5px;
-        background: #F2F2F2;
+        width: 12%;
+        min-width: 20px;
+        text-align: center;
+        padding-top: 5px;
     }
     
     input{
-        width: 230px;
+        width: 210px;
         height: 50px;
-
         font-size: 1rem;
         font-weight: bold;
-        border: 2px solid #F2F2F2;
-        padding-left: 10%;;
+        border-top: 2px solid #F2F2F2;
+        border-bottom: 2px solid #F2F2F2;
+        border-left:  2px solid #F2F2F2;
+        padding-left: 10%;
     }
     
-    .fas.fa-search{
-        color:#0065FC;
+    #search1{
+        font-size: 1rem;
+        font-weight: bold;
+        height: 50px;
+        text-align: center;
+        line-height: 60px;
+        background: white;
+    }
+    
+    #search2{
+        font-size: 1rem;
+        font-weight: bold;
+        width: 35%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius:  15px;
+        background: #0065FC;
     }
     
     .bouton_bleu{
-        font-size: 1rem;
-        font-weight: bold;
         Color: white;
-        padding-right: 2%;
     }
     
     /* filtre */
@@ -231,7 +257,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    
+
     /* Section */
     
     .fas.fa-info{
@@ -272,7 +298,6 @@
     #hebergements_a_marseille{
         width: 61%;
         min-width: 450px;
-        height: 605px;
         margin-left: 3%;
         border-radius: 3%;
         background-color: #F2F2F2;
@@ -282,7 +307,7 @@
         font-size: 1.3rem;
         font-weight: bold;
         margin-left: 6%;
-        margin-top: 5%;
+        margin-top: 3%;
         margin-bottom: 3%;
     }
     
@@ -300,7 +325,8 @@
         border-radius: 9%;
         border: rgb(223, 221, 221) solid 1px;
         background: white;
-        margin-bottom: 4.5%;
+        margin-bottom: 4%;
+        margin-left:  0.5%;
     }
     
     .image_1{
@@ -568,10 +594,10 @@
     }
     
     .image_activites2 img{
-        width: 290px;
-        height: 500px;
+        width: 382.8px;
+        height: 660px;
         margin-bottom: 5%;
-        margin: -145px 0 0 0;
+        margin: -230px 0 0 0;
     }
     
     .activites3{
@@ -593,10 +619,10 @@
     }
     
     .image_activites3 img{
-        width: 295.5px;
-        height: 194.4px;
+        width: 384.15px;
+        height: 252.72px;
         margin-bottom: 5%;
-        margin: -21px 0 0 0;
+        margin: -50px 0 0 0;
     }
     
     .activites4{
@@ -619,8 +645,8 @@
     }
     
     .image_activites4 img{
-        width: 295.5px;
-        height: 189.59px;
+        width:  384.15px;
+        height: 252.72px;
         margin-bottom: 5%;
         margin: 1px 0 0 0;
     }
@@ -644,10 +670,10 @@
     }
     
     .image_activites5 img{
-        width: 295.5px;
-        height: 196.615px;
+        width: 384.15px;
+        height: 255.593px;
         margin-bottom: 5%;
-        margin: 0px 0 0 -5px;
+        margin: -15px 0 0 -5px;
     }
     
     /* Pied de page */

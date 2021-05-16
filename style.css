@@ -36,7 +36,7 @@ header{
 }
 
 #logo{
-    width: 60%;
+    width: 56.4%;
     margin-top: 3%;
 }
 
@@ -45,7 +45,19 @@ header{
     width: 127px;
 }
 
-.element{
+.element1{
+    width: 200px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.element2{
+    width: 200px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.element3{
     width: 200px;
     text-align: center;
     font-size: 1.3rem;
@@ -54,16 +66,16 @@ header{
 
 .is-active{
     border-top: 4px solid #0065FC;
-    padding-top: 40px;
+    padding-top: 38px;
     margin-bottom: 2%;
 }
 
 .no_active{
-    margin-top: 42px;
+    margin-top: 43px;
 }
 
 .no_active1{
-    margin-top: 40px;
+    margin-top: 43.5px;
 }
 
 
@@ -98,44 +110,63 @@ header a.gras{
 
 #rechercher{
     display: flex;
-    width: 29%;
+    min-width: 500px;
+    max-width: 570px;
     height: 62px;
     border-radius: 20px;
     margin-left: 3%;
     margin-bottom: 2%;
-    background-color: #0065FC;
+    background-color: #F2F2F2;
     align-items: center;
 }
 
 #map_maket_alt{
     font-size: 1.4rem;
-    height: 44px;
-    width: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 20px;
-    border-top-left-radius: 26.5%;
-    border-bottom-left-radius:  26.5%;
-    background: #F2F2F2;
+    width: 12%;
+    min-width: 20px;
+    text-align: center;
+    padding-top: 5px;
 }
+
 input{
     width: 100%;
-    height: 64px;
+    height: 62px;
     font-size: 1.47rem;
     font-weight: bold;
-    border: 2px solid #F2F2F2;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-left:  2px solid #F2F2F2;
+    border-right: white;
     padding-left: 3%;
 }
 
 .fas.fa-search{
-    color:#0065FC;
+    visibility: hidden;
+}
+
+#search1{
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 62px;
+    text-align: center;
+    line-height: 60px;
+    background: white;
+}
+
+#search2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 40%;
+    height: 62px;
+    text-align: center;
+    line-height: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:  20px;
+    background: #0065FC;
 }
 
 .bouton_bleu{
-    font-size: 1.4rem;
-    font-weight: bold;
     Color: white;
-    padding-right: 2%;
 }
 
 /* filtre */
@@ -144,7 +175,7 @@ input{
     font-size: 1.4rem;
     font-weight: bold;
     margin-top: 1%;
-    margin-left: 5%;;
+    margin-left: 5%;
 }
 
 #filtre{

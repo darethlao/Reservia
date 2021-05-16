@@ -1,4 +1,4 @@
-@media (min-width: 1018px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1017px){
 
     header{
         padding-left: 0;
@@ -30,14 +30,14 @@
         font-size: 1rem;
         font-weight: bold;
     }
-      
+       
     .element{
         width: 120px;
         text-align: center;
         font-size: 1rem;
         font-weight: bold;
     }
-      
+       
     .element{
         width: 120px;
         text-align: center;
@@ -138,7 +138,7 @@
     /* filtre */
 
     #filtre h2{
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: bold;
         margin-left: 0%;
         margin-right: 80%;
@@ -152,7 +152,7 @@
         margin-left: 3%;
         margin-bottom: 2%;
         justify-content: space-between;
-        font-size: 1.1rem;
+        font-size: 0.95rem;
         font-weight: bold;
     }
 
@@ -210,9 +210,9 @@
 
     #economique{
         display: flex;
-        width: 170px;
+        width: 150px;
         height: 47px;
-        padding-right: 20px;
+        padding-right: 9px;
         margin-top: 2.5%;
         margin-bottom: 2.5%;
         border-radius: 30px;
@@ -223,9 +223,9 @@
 
     #familial{
         display: flex;
-        width: 130px;
+        width: 113px;
         height: 47px;
-        padding-right: 20px;
+        padding-right: 9px;
         margin-right: 0%;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -237,9 +237,9 @@
 
     #romantique{
         display: flex;
-        width: 170px;
+        width: 145px;
         height: 47px;
-        padding-right: 20px;
+        padding-right: 9px;
         margin-right: 0%;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -251,9 +251,9 @@
 
     #animaux_autorises{
         display: flex;
-        width: 220px;
+        width: 190px;
         height: 47px;
-        padding-right: 25px;
+        padding-right: 9px;
         margin-top: 2%;
         margin-bottom: 2%;
         border-radius: 30px;
@@ -313,7 +313,7 @@
     }
 
     #hebergements_a_marseille h2{
-        font-size: 1.31rem;
+        font-size: 1.30rem;
         font-weight: bold;
         margin-left: 4%;
         margin-top: 1%;
@@ -431,14 +431,14 @@
     #les_plus_populaires h2{
         display: flex;
         width: 100%;
-        font-size: 1.31rem;
+        font-size: 1.30rem;
         font-weight: bold;
         margin-top: 2%;
         margin-left: 4%;
     }
     
     .fas.fa-chart-line{
-        margin-left: 73%;
+        margin-left: 65%;
         margin-bottom: 0%;
     }
     
@@ -468,7 +468,7 @@
 
     .image_populaire1{
         display: flex;
-        width: 130px;
+        width: 100px;
         height: 168px;
         border-top-left-radius: 22px;
         border-bottom-left-radius: 22px;
@@ -484,7 +484,7 @@
     
     .image_populaire2{
         display: flex;
-        width: 130px;
+        width: 100px;
         height: 168px;
         border-top-left-radius: 22px;
         border-bottom-left-radius: 22px;
@@ -500,7 +500,7 @@
     
     .image_populaire3{
         display: flex;
-        width: 130px;
+        width: 100px;
         height: 168px;
         border-top-left-radius: 22px;
         border-bottom-left-radius: 22px;
@@ -525,11 +525,11 @@
     }
     
     .info_hotel_populaire{
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
 
     .info_hotel_populaire span{
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: bold;
     }
     
@@ -547,7 +547,7 @@
     }
 
     #activites_a_marseille h2{
-        font-size: 1.31rem;
+        font-size: 1.30rem;
         font-weight: bold;
         margin-top: 5%;
         margin-left: 4%;
