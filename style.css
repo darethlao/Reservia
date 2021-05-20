@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    block-size: border-box;
     text-decoration: none;
 }
 
@@ -149,7 +150,7 @@ input{
     font-weight: bold;
     height: 62px;
     text-align: center;
-    line-height: 60px;
+    line-height: px;
     background: white;
 }
 
@@ -325,7 +326,7 @@ input{
 
 #hebergements_a_marseille{
     width: 60%;
-    min-width: 375px;
+    min-width: 0px;
     margin-left: 3%;
     border-radius: 3%;
     background-color: #F2F2F2;
@@ -543,7 +544,7 @@ input{
 /* Activités */
 
 #activites_a_marseille{
-    min-width: 350px;
+    min-width: 0px;
     height: 100%;
     padding-left: 3%;
     padding-right: 3%;
